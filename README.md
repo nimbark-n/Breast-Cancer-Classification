@@ -3,11 +3,11 @@
 
 This project presents an end-to-end machine learning pipeline to classify breast tumors as malignant or benign using structured clinical data. The objective is to demonstrate how fundamental machine learning techniques can be applied to real-world healthcare problems with strong predictive performance.
 
-## Problem Statement
+# Problem Statement
 
 Early and accurate detection of breast cancer is critical for effective treatment. This project builds a classification model that predicts whether a tumor is malignant or benign based on diagnostic features.
 
-## Dataset
+# Dataset
 
 The dataset used is the Breast Cancer Wisconsin dataset, available through scikit-learn.
 
@@ -40,16 +40,16 @@ A Logistic Regression model is trained on the dataset due to its interpretabilit
 
 Model performance is evaluated using accuracy on the test dataset.
 
-## Results
+# Results
 
 The Logistic Regression model achieves high accuracy on the test data, indicating that the dataset is well-structured and separable using linear decision boundaries. This highlights the effectiveness of simple models when features are informative.
 
-## Tech Stack
+# Tech Stack
 Python
 NumPy
 Pandas
 Scikit-learn
-## How to Run
+# How to Run
 Install required dependencies:
 pip install numpy pandas scikit-learn
 Launch Jupyter Notebook:
